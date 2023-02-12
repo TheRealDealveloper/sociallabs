@@ -1,0 +1,20 @@
+.login-container{
+    background-color: #4D331F;
+}
+
+.left-col-login{
+    background-color: #4D331F;
+    animation-name: login;
+    animation-duration: 2s;
+}
+
+@keyframes login {
+    from {
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+  }
